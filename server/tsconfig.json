@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2020"],
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noErrorTruncation": true,
+    "noUncheckedIndexedAccess": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node"]
+  },
+  "exclude": ["node_modules", ".esbuild"]
+}
